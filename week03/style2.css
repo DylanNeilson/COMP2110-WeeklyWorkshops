@@ -1,0 +1,178 @@
+body{
+    margin:0;
+}
+.page-wrapper{
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-rows: repeat(7 auto);
+
+    grid-template-areas: 
+    'intro intro'
+    'summary sidebar'
+    'preamble sidebar'
+    'explanation sidebar'
+    'participation sidebar'
+    'benefits sidebar'
+    'requirements sidebar'
+}
+
+.intro{
+    grid-area: intro;
+    background-color: #165658;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: #c0cac3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.archives{
+    padding-top: 150px;
+}
+
+.resources{
+    padding-top: 250px;
+}
+
+.summary{
+    grid-area: summary;
+    /* background-color: rgb(134, 87, 29); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preamble{
+    grid-area: preamble;
+    /* background-color: rgb(134, 87, 29); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.explanation{
+    grid-area: explanation;
+    /* background-color: rgb(154, 120, 79); */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #165658;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+}
+
+
+.participation{
+    grid-area: participation;
+    background-color: rgb(186 208 195);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #165658;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: -20px;
+}
+
+.benefits{
+    grid-area: benefits;
+    background-color: rgb(186 208 195);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #165658;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+.requirements{
+    grid-area: requirements;
+    /* background-color: rgb(154, 120, 79); */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #165658;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.requirements{
+    grid-area: requirements;
+    /* background-color: rgb(154, 120, 79); */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #165658;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a:link {
+    color: #2aa8ac;;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: #2aa8ac;;;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  
+a:active {
+    color: black;
+    text-decoration: none;
+  }
+
+footer{
+    grid-area: footer;
+    background-color: #165658;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    color: white;
+}
+footer > a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+footer > a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+footer >  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  
+footer >  a:active {
+    color: black;
+    text-decoration: none;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ li{
+    padding-bottom: 10px;
+ }
+
+h1{
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 60px;
+}

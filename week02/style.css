@@ -1,0 +1,52 @@
+header{
+    font-size: 20;
+    text-align: center;
+}
+
+h1{
+    color: purple;
+}
+
+#italicParagraph{
+    font-style: italic;
+}
+
+#styledSection{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9a7799;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#styledSection > video{
+    width: 200px;
+    height: 200px;
+}
+
+#styledSection > table{
+    border-width: 1px;
+    border-color: #9a7799;
+    border-style: solid;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    background-color: #9a7799;
+}
+
+footer{
+    text-align: center;
+}
